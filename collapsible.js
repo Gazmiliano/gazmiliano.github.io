@@ -7,12 +7,8 @@ for (i = 0; i < coll.length; i++) {
     var content = this.nextElementSibling;
     if (content.style.maxHeight){
       content.style.maxHeight = null;
-      this.classList.remove('topRound');
-      this.classList.add('allRound');
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
-      this.classList.remove('allRound');
-      this.classList.add('topRound');
     } 
   });
 }
