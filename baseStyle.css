@@ -50,8 +50,8 @@
   }
 
   body {
-    /* background: linear-gradient(to top, #7b2ef8, #5949e9) fixed; */
-    background: linear-gradient(to top, #7b2ef8, #1900ff) fixed;
+    background: linear-gradient(to top, #7b2ef8, #5949e9) fixed;
+    /* background: linear-gradient(to top, #7b2ef8, #1900ff) fixed; */
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;    
@@ -157,4 +157,3 @@
     -moz-border-top-right-radius : 15px;
   }
 
-  
