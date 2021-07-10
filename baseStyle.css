@@ -50,6 +50,10 @@
   }
 
   body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
     background: linear-gradient(to top, #7b2ef8, #5949e9) fixed;
     /* background: linear-gradient(to top, #7b2ef8, #1900ff) fixed; */
     display: flex;
